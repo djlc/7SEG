@@ -19,6 +19,6 @@ void setup() {
 // the loop function runs over and over again until power down or reset
 void loop() {
 	static int i = 0;
-	for (int j = 0; j < 256; j++) display.showNum(i, 0, false, 10);
+	for (int j = 0; j < 64; j++) display.showNum(i, 0, true, 16);
 	i++;
 }
